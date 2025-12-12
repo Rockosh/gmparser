@@ -10,7 +10,7 @@ async function scrapeGames() {
 
   const page = await browser.newPage();
   const baseUrl = "https://freetp.org/";
-  const pageCount = 5;
+  const pageCount = 3;
   let allGames = [];
 
   async function collectGameCards() {
